@@ -15,9 +15,9 @@ This project serves as a demonstration of front-end development skills. It is a 
 - No Interactive Elements: The project does not include interactive features like buttons, forms, or animations (focus on structure only).
 
 # Technologies Used
-- <img src="https://cdn.worldvectorlogo.com/logos/react-1.svg" alt="React Logo" width="40" height="40"/> - JavaScript library for building the user interface and managing components.
+- <img src="https://cdn.worldvectorlogo.com/logos/react-1.svg" alt="React Logo" width="40" height="40"/>
   
-- <img src="https://cdn.worldvectorlogo.com/logos/css-3.svg" alt="CSS3 Logo" width="40" height="40"/> - For styling and layout, using Flexbox and modern CSS techniques.
+- <img src="https://cdn.worldvectorlogo.com/logos/css-3.svg" alt="CSS3 Logo" width="40" height="40"/>
 
 # Acknowledgments
 Thanks to the original Meristem Real Estate platform for the inspiration.
