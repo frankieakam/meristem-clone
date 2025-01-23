@@ -1,0 +1,201 @@
+body, #root {
+  width: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  height: 100vh;
+  background: #f2f2f2;
+}
+
+.header {
+  background: #fff;
+  padding: 18px 0 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  color:  #2a623d;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 0 75px;
+}
+
+.text {
+  display: flex;
+  align-items: center; 
+}
+
+.separator {
+  font-size: 30px; 
+  font-weight: 100; 
+  margin-right: 5px; 
+}
+
+.properties {
+  font-size: 20px; 
+  padding-top: 2px;
+}
+
+nav {
+  padding-left: 660px;
+}
+
+.header .nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+
+.header .nav-links li {
+  margin: 0 15px;
+}
+
+.hero-section {
+  background: url('/images/meristem-hero-image.jpg') no-repeat center/cover;
+  color: #fff;
+  padding: 38px 20px 80px 20px;
+  text-align: center;
+  position: relative; 
+  z-index: 1;
+}
+
+.hero-section::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 12px; 
+  background: linear-gradient(to right, green 60%, red 55%, red 91%, purple 50%, purple 96%, green 10%);
+  z-index: 2;
+}
+
+.hero-section h2 {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: left;
+  padding: 0 60px 0 60px;
+}
+
+.hero-section h2::after {
+  content: " \A Excellence";
+  white-space: pre; 
+}
+
+.hero-section p {
+  padding: 0 60px 0 60px;
+  text-align: left;
+}
+
+.hero-section p::after {
+  content: "\A opportunities.";
+  white-space: pre;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 50px;
+}
+
+.hero-buttons button {
+  padding: 8px 20px;
+  gap: 10px;
+  border-radius: 5px;
+  background: #2a623d;
+  color: #fff;
+  margin-bottom: 55px;
+}
+
+.services-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 0 50px 0;
+  background: #f2f2f2;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+}
+
+.services {
+  background: #fff;
+  padding: 0;
+  border-radius: 30px;
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  position: relative;
+  margin-top: -60px;
+  z-index: 4;
+}
+
+.services:hover {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 25px;
+  padding: 0;
+}
+
+.service-item {
+  text-align: center;
+  color: #2a623d;
+  justify-content: space-between;
+  padding: 20px 125px 10px 125px;
+}
+
+#service-item1:hover {
+  background: #2a623d;
+  color: #fff;
+  border-top-left-radius: 100px;
+}
+
+#service-item2:hover {
+  background: #2a623d;
+  color: #fff;
+  border-top-left-radius: 100px;
+}
+
+#service-item3:hover {
+  background: #2a623d;
+  color: #fff;
+  border-top-left-radius: 100px;
+}
+
+.service-item h3 {
+  font-size: 11.3px;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+.footer {
+  background: #2a623d;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-links {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.footer-links ul {
+  display: inline-block; 
+  padding: 0; 
+  margin: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 25px;
+  font-size: 12px;
+  list-style: none;
+}
+
+footer p {
+  margin-top: 30px;
+  font-size: 11px;
+}

@@ -1,0 +1,100 @@
+body, #root {
+  width: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.header {
+  background: #fff;
+  padding: 2px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  color:  #2a623d;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  align-items: center; 
+}
+
+.separator {
+  font-size: 30px; 
+  font-weight: 100; 
+  margin-right: 10px; 
+}
+
+.properties {
+  font-size: 25px; 
+}
+
+.header .nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header .nav-links li {
+  margin-left: 20px;
+}
+
+.hero-section {
+  background: url('/images/meristem-hero-image.jpg') no-repeat center/cover;
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero-section h2 {
+  font-size: 2.5rem;
+}
+
+.hero-section p {
+  margin: 20px 0;
+}
+
+.hero-buttons button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  background: #2a623d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.services-section {
+  display: flex;
+  justify-content: space-around;
+  background: #f9f9f9;
+  padding: 50px 0;
+}
+
+.service-item {
+  text-align: center;
+}
+
+.service-item h3 {
+  margin-top: 10px;
+}
+
+.footer {
+  background: #2a623d;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-links a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
