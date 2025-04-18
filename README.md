@@ -1,7 +1,7 @@
 ## Meristem Real Estate Website Clone
 
 # Overview
-This project serves as a demonstration of front-end development skills. It is a clone of the Meristem Real Estate platform, built using React.js.
+This project serves only as a demonstration of front-end development skills. It is a clone of the Meristem Real Estate platform, built using React.js.
 
 # Features
 - Responsive Design: The clone is responsive only for the desktop web interface and provides a consistent user experience across various screen sizes on desktop devices.
@@ -17,5 +17,5 @@ This project serves as a demonstration of front-end development skills. It is a 
 # Technologies Used
 <img src="https://cdn.worldvectorlogo.com/logos/react-1.svg" alt="React Logo" width="40" height="40"/> <img src="https://cdn.worldvectorlogo.com/logos/css-3.svg" alt="CSS3 Logo" width="40" height="40"/>
 
-# Acknowledgments
+# Acknowledgment
 Thanks to the original Meristem Real Estate platform for the inspiration.
