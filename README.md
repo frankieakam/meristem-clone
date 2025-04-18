@@ -19,4 +19,3 @@ This project serves as a demonstration of front-end development skills. It is a 
 
 # Acknowledgments
 Thanks to the original Meristem Real Estate platform for the inspiration.
-Special thanks to the open-source community for the tools and resources provided.
